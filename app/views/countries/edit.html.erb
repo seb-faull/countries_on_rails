@@ -1,2 +1,25 @@
-<h1>Countries#edit</h1>
-<p>Find me in app/views/countries/edit.html.erb</p>
+<h1>Edit Country</h1>
+
+<form action="/countries/<%= @country.id %>" method="POST">
+	<%= token_tag %>
+
+	<label for="title"> Title: </label>
+	<input type="text" name="name" value="<%= @country.name %>">
+
+	<label for="population"></label>
+	<textarea name="population"> <%= @country.population %> </textarea>
+
+	<label for="flag_url"></label>
+	<textarea name="flag_url"> <%= @country.flag_url %> </textarea>
+
+	<label for="language"></label>
+	<textarea name="language"> <%= @country.language %> </textarea>
+
+	<label for="leader"></label>
+	<textarea name="leader"> <%= @country.leader %> </textarea>
+
+	<input type="hidden" name="_method" value="PUT">
+
+	<input type="submit" value="Update">
+
+</form>
