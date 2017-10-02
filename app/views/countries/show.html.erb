@@ -1,2 +1,9 @@
-<h1>Countries#show</h1>
-<p>Find me in app/views/countries/show.html.erb</p>
+<h1>Show Country</h1>
+
+<img class="img" src="<%= @country.flag_url %>">
+
+<h2><%= @country.name %></h2>
+<p><%= @country.language %></p>
+<strong>Population: <%= @country.population %></strong>
+<p><%= @country.leader %></p>
+<p><a href="http://localhost:3000/countries">Go back</a></p>

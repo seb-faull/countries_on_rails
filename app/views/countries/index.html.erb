@@ -5,7 +5,8 @@
 	
 	<img class="img" src="<%= country.flag_url %>">
 	<h2> <%= country.name %> </h2>
-	<p><%= country.language %> - <strong><%= country.population %></strong></p>
+	<p><%= country.language %> - <strong>Population: <%= country.population %></strong></p>
+	<p><%= country.leader %></p>
 	<p><a href="/countries/<%= country.id %>">SHOW PAGE</a></p>
 	<p><a href="/countries/<%= country.id %>/edit">EDIT</a></p>
 	<p><a href="/countries/new">NEW</a></p>
