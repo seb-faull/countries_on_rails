@@ -1,1 +1,2 @@
 Country.create!(name: "England", population: 65000000, flag_url: "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/1200px-Flag_of_England.svg.png", language: "English", leader: "Theresa May")
+Country.create!(name: "Norway", population: 5000000, flag_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/234px-Flag_of_Norway.svg.png", language: "Norwegian", leader: "Erna Solberg")
