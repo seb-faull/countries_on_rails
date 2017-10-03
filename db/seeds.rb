@@ -1,2 +1,5 @@
 Country.create!(name: "England", population: 65000000, flag_url: "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/1200px-Flag_of_England.svg.png", language: "English", leader: "Theresa May")
-Country.create!(name: "Norway", population: 5000000, flag_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/234px-Flag_of_Norway.svg.png", language: "Norwegian", leader: "Erna Solberg")
+Country.create!(name: "France", population: 66000000, flag_url: "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png", language: "French", leader: "Emmanuel Macron")
+Country.create!(name: "Russia", population: 144000000, flag_url: "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1200px-Flag_of_Russia.svg.png", language: "Russian", leader: "Vladimir Putin")
+Country.create!(name: "Greenland", population: 55000, flag_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_Greenland.svg/255px-Flag_of_Greenland.svg.png", language: "Greenlandic & Danish", leader: "Naalakkersuisut Siulittaasuat")
+Country.create!(name: "North Korea", population: 25000000, flag_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/2000px-Flag_of_North_Korea.svg.png", language: "Korean", leader: "Kim Jong-un")
